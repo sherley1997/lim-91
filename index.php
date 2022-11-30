@@ -9,7 +9,8 @@
 <body>
     <h1>FICHER PHP</h1>
     <?php
-        echo "Cette fois, mon php est <strong> interprété</strong>";
+        echo "Cette fois mon php est <strong>interprété</strong>";
     ?>
+    <p>Nouvelle ligne</p>
 </body>
 </html>
