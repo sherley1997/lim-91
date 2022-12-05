@@ -79,8 +79,8 @@
         elseif($sexe == 'femme'):
             echo 'Bonjour Maman';
         else :
-            echo 'Bonjour Madame';
-        endit;
+            echo 'Bonjour femme';
+        endif;
     ?>
     <p>Nouvelle ligne</p>
 </body>
