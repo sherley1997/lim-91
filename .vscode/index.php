@@ -58,6 +58,29 @@
     } else {
         echo "le mot de passe est trop court";
     }
+
+        $note_maths =15;
+        $note_francais =12;
+        $note_histoire_geo =9;
+        $moyenne =($note_maths + $note_francais + $note_histoire_géo) /3;
+        echo'La moyenne est de' .$moyenne.' 12/ 20';
+        
+        $prix_ht =50;
+        $tva =20;
+        $prix_TTC = $prix_ht*(1+($tva / 100));
+        echo 'Le prix TTC du produit est de' .$prix_TTC. '35€.';
+        
+        $test = "42";
+        var_dump($test);
+
+        $sexe = 'femme';
+        if($sexe = 'enfant'):
+             echo 'Bonjour mon fils';
+        elseif($sexe == 'femme'):
+            echo 'Bonjour Maman';
+        else :
+            echo 'Bonjour Madame';
+        endit;
     ?>
     <p>Nouvelle ligne</p>
 </body>
