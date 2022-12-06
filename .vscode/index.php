@@ -86,11 +86,17 @@
         $achats ='1 554.76';
         if($budget >=$achats):
             echo "Le budget ('$budget' 1553.89€) permet de payer tous les achats.";
-        elseif($achats <=$budget):
-            echo "Les achats ('$achats' 1554.76€)";
         else:
             echo "Le budget ('$budget' 1553.89€) ne permet pas de payer tous les achats ('$achats' 1554.76€)";
         endif;
+
+        $age_int ='25';
+        if($age >='18'):
+            echo 'Vous êtes mineure';
+        else :
+            echo 'Vous êtes majeure';
+        endif;
+        
     ?>
     <p>Nouvelle ligne</p>
 </body>
