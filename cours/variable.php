@@ -5,7 +5,7 @@
  $nom = "limery";
  echo $nom;
  $age = 25;
-echo $age;
+ echo $age;
 
 // Exercice 2
  $km = 1;
