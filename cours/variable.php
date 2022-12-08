@@ -25,5 +25,13 @@
  $a = true / false;
  // Boolean
 
+// Exercice 4
+$note1 = 15;
+$note2 = 16;
+$note3 = 20;
+$moyenne = ($note1 +$note2 + $note3);
+echo round ($moyenne);
+
+// Exercice 5
 
 ?>
